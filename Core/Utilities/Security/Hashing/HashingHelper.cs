@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Core.Security.Hashing {
+namespace Core.Utilities.Security.Hashing {
     public static class HashingHelper {
         public static void CreatePasswordHash
             (string password, out byte[] passwordHash, out byte[] passwordSalt) {
